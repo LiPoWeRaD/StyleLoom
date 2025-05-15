@@ -4,17 +4,13 @@ import Btn from "@/app/ul/Btn";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 
-interface ProductPageProps {
-  params: { slug: string };
-}
-
-export default function ProductPage({ params }: ProductPageProps) {
-  // Объединяем все товары в один массив
+export default async function ProductPage({ params }: { params: { slug: string } }) {
+  const awaitedParams = await params;
   const allProducts = [...WomensProducts, ...MensProducts, ...KidsProducts];
 
   // Ищем товар по slug
   const product = allProducts.find(
-    (item) => item.link.split("/products/")[1] === params.slug
+    (item) => item.link.split("/products/")[1] === awaitedParams.slug
   );
 
   if (!product) return notFound();

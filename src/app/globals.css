@@ -11,6 +11,7 @@
   --brown60: #AE9B84;
   --brow65: #B8A893;
   --brown70: #C2B4A3;
+  --brown80: #D6CDC2;
 
   --LineBtn: url("/Image/LineBtn.png");
 }
@@ -28,6 +29,7 @@
   --color-brown60: var(--brown60);
   --color-brow65: var(--brow65);
   --color-brown70: var(--brown70);
+  --color-brown80: var(--brown80);
 
   --bg-One: url("/Image/One.png");
 }

@@ -7,6 +7,9 @@ import Link from "next/link";
 import CraftingTrends from "./components/CraftingTrends";
 import Navigating from "./components/Navigating";
 import Products from "./components/Products";
+import Testimonials from "./components/Testimonials";
+import FAQ from "./components/FAQ";
+import CTA from "./components/CTA";
 
 export default function Home() {
   return (
@@ -65,6 +68,15 @@ export default function Home() {
       </section>
       <section id="Products" className="container border-dashed border-2 border-dark15 rounded-lg">
         <Products />
+      </section> 
+      <section id="Testimonials" className="container border-dashed border-2 border-dark15 rounded-lg border-r-0">
+        <Testimonials />
+      </section>
+      <section id="FAQ" className="container border-dashed border-2 border-r-0 border-dark15 rounded-lg ">
+        <FAQ />
+      </section>
+      <section id="CTA" className="container mb-[100px]">
+        <CTA />
       </section>
     </main>
   );

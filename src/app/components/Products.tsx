@@ -33,16 +33,24 @@ const Products = () => {
             </div>
             <ul className="flex gap-x-3.5">
               <li>
-                  <button onClick={() => handleActive(Categories[0])} className={`text-sm md:text-base px-[20px] py-[12px] md:px-[30px] md:py-[18px] rounded-xl cursor-pointer border-dashed border-2 border-dark15 ${active === Categories[0] ? 'bg-brown70 text-black' : ''}`}>All</button>
+                  <button onClick={() => handleActive(Categories[0])} 
+                    className={`text-sm md:text-base px-[20px] py-[12px] md:px-[30px] md:py-[18px] 
+                    rounded-xl cursor-pointer border-dashed border-2 border-dark15 hover:bg-brown60/50 duration-300 ease-in-out hover:text-black ${active === Categories[0] ? 'bg-brown70 text-black' : ''}`}>All</button>
               </li>
               <li>
-                  <button onClick={() => handleActive(Categories[1])} className={`text-sm md:text-base px-[20px] py-[12px] md:px-[30px] md:py-[18px] rounded-xl cursor-pointer border-dashed border-2 border-dark15 ${active === Categories[1] ? 'bg-brown70 text-black' : ''}`}>Mens</button>
+                  <button onClick={() => handleActive(Categories[1])} 
+                    className={`text-sm md:text-base px-[20px] py-[12px] md:px-[30px] md:py-[18px] 
+                    rounded-xl cursor-pointer border-dashed border-2 border-dark15 hover:bg-brown60/50 duration-300 ease-in-out hover:text-black ${active === Categories[1] ? 'bg-brown70 text-black' : ''}`}>Mens</button>
               </li>
               <li>
-                  <button onClick={() => handleActive(Categories[2])} className={`text-sm md:text-base px-[20px] py-[12px] md:px-[30px] md:py-[18px] rounded-xl cursor-pointer border-dashed border-2 border-dark15 ${active === Categories[2] ? 'bg-brown70 text-black' : ''}`}>Womens</button>
+                  <button onClick={() => handleActive(Categories[2])} 
+                    className={`text-sm md:text-base px-[20px] py-[12px] md:px-[30px] md:py-[18px] 
+                    rounded-xl cursor-pointer border-dashed border-2 border-dark15 hover:bg-brown60/50 duration-300 ease-in-out hover:text-black ${active === Categories[2] ? 'bg-brown70 text-black' : ''}`}>Womens</button>
               </li>
               <li>
-                  <button onClick={() => handleActive(Categories[3])} className={`text-sm md:text-base px-[20px] py-[12px] md:px-[30px] md:py-[18px] rounded-xl cursor-pointer border-dashed border-2 border-dark15 ${active === Categories[3] ? 'bg-brown70 text-black' : ''}`}>Kids</button>
+                  <button onClick={() => handleActive(Categories[3])} 
+                    className={`text-sm md:text-base px-[20px] py-[12px] md:px-[30px] md:py-[18px] 
+                    rounded-xl cursor-pointer border-dashed border-2 border-dark15 hover:bg-brown60/50 duration-300 ease-in-out hover:text-black ${active === Categories[3] ? 'bg-brown70 text-black' : ''}`}>Kids</button>
               </li>
             </ul>
         </div>
