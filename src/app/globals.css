@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --dark06: #0F0F0F;
+  --dark10: #1A1A1A;
+  --dark12: #1F1F1F;
+  --dark15: #262626;
+  --grey40: #676665;
+  --brown60: #AE9B84;
+  --brow65: #B8A893;
+  --brown70: #C2B4A3;
+
+  --LineBtn: url("/Image/LineBtn.png");
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --color-dark06: var(--dark06);
+  --color-dark10: var(--dark10);
+  --color-dark12: var(--dark12);
+  --color-dark15: var(--dark15);
+  --color-grey40: var(--grey40);
+  --color-brown60: var(--brown60);
+  --color-brow65: var(--brow65);
+  --color-brown70: var(--brown70);
+
+  --bg-One: url("/Image/One.png");
+}
+
+@layer utilities {
+  .bg-one {
+    background-image: var(--bg-One);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+  
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
