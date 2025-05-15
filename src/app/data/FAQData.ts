@@ -39,6 +39,10 @@ export const ShippingFAQ = [
     {
         title: "What is your return policy?",
         content: "We accept returns within 30 days of purchase. Please refer to our Returns Policy for more information."
+    },
+    {
+        title: "What is your return policy?",
+        content: "We accept returns within 30 days of purchase. Please refer to our Returns Policy for more information."
     }
 ]
 
@@ -46,6 +50,10 @@ export const ReturnsFAQ = [
     {
         title: "How do I return an item?",
         content: "To return an item, please contact our customer support team at support@styleloom.com. We will provide you with a return label and instructions on how to return the item."
+    },
+    {
+        title: "What is your return policy?",
+        content: "We accept returns within 30 days of purchase. Please refer to our Returns Policy for more information."
     },
     {
         title: "What is your return policy?",

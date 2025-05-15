@@ -3,25 +3,28 @@
 
 import Image from "next/image";
 import ElevateImage from "@/assets/Home/Products/Elevate.png";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import ArrowDown from "@/assets/ArrowDown.svg";
 import ProductsShop from "../ul/ProductsShop";
 import { KidsProducts, MensProducts, WomensProducts } from "../data/ProductsShopData";
+import { useCategoryStore } from "@/store/categoryStore";
+
 
 
 const Products = () => {
     const Categories = ["All", "Mens", "Womens", "Kids"];
-
-    const [active, setActive] = useState(Categories[0]);
+    const category = useCategoryStore((state) => state.category);
+    const [active, setActive] = useState(category);
     const [visible, setVisible] = useState(false);
 
     const handleActive = (category: string) => {
         setActive(category);
     }
 
-    const handleVisible = () => {
-        setVisible(!visible);
-    }
+    useEffect(() => {
+        setActive(category);
+    }, [category]);
+
 
     return (
         <>
@@ -31,7 +34,7 @@ const Products = () => {
                 <p className="text-grey40 text-[16px] 2xl:text-lg">Each piece is crafted to enhance your fashion statement.</p>
                 <Image width={170} height={100} src={ElevateImage} alt="Navigating" className="absolute top-0 right-0 h-full hidden xl:block" />
             </div>
-            <ul className="flex gap-x-3.5">
+            <ul className="flex flex-wrap gap-3.5">
               <li>
                   <button onClick={() => handleActive(Categories[0])} 
                     className={`text-sm md:text-base px-[20px] py-[12px] md:px-[30px] md:py-[18px] 

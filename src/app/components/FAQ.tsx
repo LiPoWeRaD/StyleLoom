@@ -1,6 +1,5 @@
 'use client'
 
-import NavigatingCard from "../ul/NavigatingCard"
 import Image from "next/image"
 import NavigatingImage from "@/assets/Home/Navigating/Navigating.png";
 import { OrderingFAQ, ShippingFAQ, ReturnsFAQ, SupportFAQ } from "../data/FAQData";
