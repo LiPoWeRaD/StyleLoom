@@ -8,10 +8,28 @@ interface PageProps {
     params: Promise<{ slug: string }>;
 }
 
+export async function generateStaticParams() {
+    const allProducts = [...WomensProducts, ...MensProducts, ...KidsProducts];
+    return allProducts.map((product) => ({
+        slug: product.link.split("/products/")[1]
+    }));
+}
+
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
     const resolvedParams = await params;
+    const allProducts = [...WomensProducts, ...MensProducts, ...KidsProducts];
+    const product = allProducts.find(
+        (item) => item.link.split("/products/")[1] === resolvedParams.slug
+    );
+
+    if (!product) {
+        return {
+            title: 'StyleLoom - Product Not Found'
+        };
+    }
+
     return {
-        title: `StyleLoom - ${resolvedParams.slug}`,
+        title: `StyleLoom - ${product.title}`,
     };
 }
 
