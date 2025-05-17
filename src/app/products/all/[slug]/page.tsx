@@ -8,6 +8,17 @@ interface PageProps {
     searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
 }
 
+export async function generateStaticParams() {
+    return [
+        { slug: 'allwear' },
+        { slug: 'mens' },
+        { slug: 'womens' },
+        { slug: 'kids' },
+        { slug: 'accessories' },
+        { slug: 'bagsandhandbags' }
+    ];
+}
+
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
     const resolvedParams = await params;
     return {
