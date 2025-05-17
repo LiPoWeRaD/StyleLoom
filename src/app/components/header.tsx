@@ -13,12 +13,13 @@ const Header = () => {
     const pathname = usePathname();
     const [isOpen, setIsOpen] = useState(false);
     return (
-        <div className="bg-dark06">
-        <header className="hidden md:grid grid-cols-12 container mx-auto pt-[30px] ">
+        <div className="bg-dark06 ">
+        <header className="relative hidden md:grid grid-cols-12 container mx-auto pt-[30px]">
+            <div className="overflow-hidden border-b-2 col-start-1 col-span-12 my-[10px] 2xl:my-0 2xl:col-start-2 2xl:col-span-10 border-dashed border-dark15 absolute top-0 left-0 w-full h-full pointer-events-none"></div>
             <div className="hidden 2xl:grid grid-cols-2 grid-rows-2 col-span-1 ">
                 <Image className="row-start-2" src={Cube} alt="Cube" />
             </div>
-            <ul className="grid grid-cols-4 xl:grid-cols-3 col-span-4 xl:col-span-3 xl:gap-x-3.5 mr-auto">
+            <ul className="grid grid-cols-4 xl:grid-cols-3 col-span-4 xl:col-span-3 xl:gap-x-3.5 mr-auto ">
                 <li className="col-span-2 xl:col-span-1 flex items-center justify-start">
                     <Link className={`text-sm md:text-base px-[30px] py-[18px] rounded-xl min-w-[100px] cursor-pointer ${pathname === "/" ? "bg-dark10" : "border-dashed border-2 border-dark10"}`}  href="/">Home</Link>
                 </li>

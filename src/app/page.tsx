@@ -18,9 +18,9 @@ export default function Home() {
   const setCategory = useCategoryStore((state) => state.setCategory);
 
   return (
-    <main className="flex flex-col gap-[32px] row-start-2 items-center bg-dark06">
+    <main className="flex flex-col gap-[32px] row-start-2 items-center bg-dark06 py-10">
       <section id="Hero" className="flex flex-col container">
-        <div className="relative flex flex-col gap-[16px]  border-dashed border-2 border-b-0 border-dark15">
+        <div className="relative flex flex-col gap-[16px]  border-dashed border-2 border-b-0 border-dark15 rounded-t-[18px]">
           <Image className="rounded-t-[18px] hidden lg:block" src={First} alt="First" />
           <Image className="rounded-t-[18px] hidden sm:block lg:hidden" src={FirstLaptop} alt="First" />
           <Image className="rounded-t-[18px] w-full block sm:hidden" src={FirstMobile} alt="FirstMobile" />

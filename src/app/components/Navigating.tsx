@@ -7,7 +7,7 @@ const Navigating = () => {
         <div className="flex flex-col ">
             <div className="relative flex flex-col gap-y-[30px] px-[20px] py-[30px] lg:p-20 border-dashed border-b-2 border-dark15">
                 <h2 className="text-white text-[32px] 2xl:text-5xl font-medium uppercase tracking-tight">Navigating the StyleLoom Fashion Journey.</h2>
-                <p className="text-grey40 text-[16px] 2xl:text-lg">At StyleLoom, we've designed a straightforward shopping experience to make fashion accessible.</p>
+                <p className="text-grey40 text-[16px] 2xl:text-lg">{`At StyleLoom, we've designed a straightforward shopping experience to make fashion accessible.`}</p>
                 <Image width={170} height={100} src={NavigatingImage} alt="Navigating" className="absolute top-0 right-0 h-full hidden xl:block" />
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-4">

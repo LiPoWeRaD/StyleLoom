@@ -16,6 +16,28 @@ import StarJeans from "@/assets/Home/Products/Shop/Kids/StarJeans.jpg";
 import SummerHat from "@/assets/Home/Products/Shop/Kids/SummerHat.jpg";
 import SportSneakers from "@/assets/Home/Products/Shop/Kids/SportSneakers.jpg";
 import CozyJacket from "@/assets/Home/Products/Shop/Kids/CozyJacket.jpg";
+import WideBrimBucketHat from "@/assets/Home/Products/Shop/Women/WideBrimBucketHat.jpg";
+import SophisticateSunHat from "@/assets/Home/Products/Shop/Women/SophisticateSunHat.jpg";
+import TimelessFedora from "@/assets/Home/Products/Shop/Women/TimelessFedora.jpg";
+import meskiebransoletki from "@/assets/Home/Products/Shop/Men/meskiebransoletki.jpg";
+import leatherwatch from "@/assets/Home/Products/Shop/Men/leatherwatch.jpg";
+import PinbyFilthyRich from "@/assets/Home/Products/Shop/Men/PinbyFilthyRich.jpg";
+import mensLeatherAaccessories from "@/assets/Home/Products/Shop/Men/mensLeatherAaccessories.jpg";
+import BoysClothingSets from "@/assets/Home/Products/Shop/Kids/BoysClothingSets.jpg";
+import Fathersdaycrafts from "@/assets/Home/Products/Shop/Kids/Fathersdaycrafts.jpg";
+import Losniñosquierenparar from "@/assets/Home/Products/Shop/Kids/Losniñosquierenparar.jpg";
+import fashionpocketbooks from "@/assets/Home/Products/Shop/Women/fashionpocketbooks.jpg";
+import ChikoMarianne from "@/assets/Home/Products/Shop/Women/ChikoMarianne.jpg";
+import FashionKalkiKoechin from "@/assets/Home/Products/Shop/Women/FashionKalkiKoechin.jpg";
+import Sonbaharmodakıyafeti from "@/assets/Home/Products/Shop/Women/Sonbaharmodakıyafeti.jpg";
+import BranddesignTop from "@/assets/Home/Products/Shop/Men/BranddesignTop.jpg";
+import Bestmenscross from "@/assets/Home/Products/Shop/Men/Bestmenscross.jpg";
+import Briefcaseformen from "@/assets/Home/Products/Shop/Men/Briefcaseformen.jpg";
+import SCIONE from "@/assets/Home/Products/Shop/Men/SCIONE.jpg";
+import Onlythingstokeep from "@/assets/Home/Products/Shop/Kids/Onlythingstokeep.jpg";
+import HandbagBigChain from "@/assets/Home/Products/Shop/Kids/HandbagBigChain.jpg";
+import koreanbagkids from "@/assets/Home/Products/Shop/Kids/koreanbagkids.jpg";
+import BagsGirl from "@/assets/Home/Products/Shop/Kids/BagsGirl.jpg";
 
 export const WomensProducts = [
     {
@@ -107,6 +129,111 @@ export const WomensProducts = [
         isNew: true,
         discount: 0,
         country: "India"
+    },
+    {
+        image: WideBrimBucketHat.src,
+        title: "Wide-Brim Bucket Hat",
+        tag: "Accessories",
+        fit: "One size",
+        price: "$29.99",
+        link: "/products/wide-brim-bucket-hat",
+        description: "A wide-brimmed bucket hat for sun protection and a stylish look.",
+        material: "Cotton",
+        colors: ["White", "Black"],
+        sizes: ["One size"],
+        isNew: true,
+        discount: 0,
+        country: "China"
+    },
+    {
+        image: SophisticateSunHat.src,
+        title: "Sophisticate Sun Hat",
+        tag: "Accessories",
+        fit: "One size fits all",
+        price: "$24.99",
+        link: "/products/sophisticated-sun-hat",
+        description: "A wide-brimmed hat for sun protection and a stylish look.",
+        material: "Straw",
+        colors: ["Beige"],
+        sizes: ["One size"],
+        isNew: false,
+        discount: 0,
+        country: "Vietnam"
+    },
+    {
+        image: TimelessFedora.src,
+        title: "Timeless Fedora",
+        tag: "Accessories",
+        fit: "One size fits all",
+        price: "$24.99",
+        link: "/products/timeless-fedora",
+        description: "A timeless fedora for a classic look.",
+        material: "Cotton",
+        colors: ["Black"],
+        sizes: ["One size"],
+        isNew: false,
+        discount: 0,
+        country: "China"
+    },
+    {
+        image: fashionpocketbooks.src,
+        title: "Fashion Pocket Books",
+        tag: "Bags and Hand Bags",
+        fit: "One size",
+        price: "$24.99",
+        link: "/products/fashion-pocket-books",
+        description: "A fashionable pocket book for your daily needs.",
+        material: "Cotton",
+        colors: ["Black"],
+        sizes: ["One size"],
+        isNew: false,
+        discount: 0,
+        country: "China"
+    },
+    {
+        image: ChikoMarianne.src,
+        title: "Chiko Marianne",
+        tag: "Bags and Hand Bags",
+        fit: "One size",
+        price: "$24.99",
+        link: "/products/chiko-marianne",
+        description: "A fashionable pocket book for your daily needs.",
+        material: "Cotton",
+        colors: ["Black"],
+        sizes: ["One size"],
+        isNew: false,
+        discount: 0,
+        country: "China"
+    },
+    {
+        image: FashionKalkiKoechin.src,
+        title: "Fashion Kalki Koechin",
+        tag: "Bags and Hand Bags",
+        fit: "One size",
+        price: "$24.99",
+        link: "/products/fashion-kalki-koechin",
+        description: "A fashionable pocket book for your daily needs.",
+        material: "Cotton",
+        colors: ["Black"],
+        sizes: ["One size"],
+        isNew: false,
+        discount: 0,
+        country: "China"
+    },
+    {
+        image: Sonbaharmodakıyafeti.src,
+        title: "Sonbahar Moda Yıyafeti",
+        tag: "Bags and Hand Bags",
+        fit: "One size",
+        price: "$24.99",
+        link: "/products/sonbahar-moda-yıyafeti",
+        description: "A fashionable pocket book for your daily needs.",
+        material: "Cotton",
+        colors: ["Black"],
+        sizes: ["One size"],
+        isNew: false,
+        discount: 0,
+        country: "China"
     }
 ]
 
@@ -200,6 +327,126 @@ export const MensProducts = [
         isNew: true,
         discount: 15,
         country: "China"
+    },
+    {
+        image: meskiebransoletki.src,
+        title: "Mens Bracelet",
+        tag: "Accessories",
+        fit: "One size",
+        price: "$24.99",
+        link: "/products/mens-bracelet",
+        description: "A stylish bracelet for men.",
+        material: "Silver",
+        colors: ["Silver"],
+        sizes: ["One size"],
+        isNew: false,
+        discount: 0,
+        country: "China"
+    },
+    {
+        image: leatherwatch.src,
+        title: "Leather Watch",
+        tag: "Accessories",
+        fit: "One size",
+        price: "$24.99",
+        link: "/products/leather-watch",
+        description: "A stylish leather watch for men.",
+        material: "Leather",
+        colors: ["Black"],
+        sizes: ["One size"],
+        isNew: false,
+        discount: 0,
+        country: "China"
+    },
+    {
+        image: PinbyFilthyRich.src,
+        title: "Pin by Filthy Rich",
+        tag: "Accessories",
+        fit: "One size",
+        price: "$24.99",
+        link: "/products/pin-by-filthy-rich",
+        description: "A stylish pin for men.",
+        material: "Silver",
+        colors: ["Silver"],
+        sizes: ["One size"],
+        isNew: false,
+        discount: 0,
+        country: "China"
+    },
+    {
+        image: mensLeatherAaccessories.src,
+        title: "Mens Leather Accessories",
+        tag: "Accessories",
+        fit: "One size",
+        price: "$24.99",
+        link: "/products/mens-leather-accessories",
+        description: "A stylish leather accessories for men.",
+        material: "Leather",
+        colors: ["Black"],
+        sizes: ["One size"],
+        isNew: false,
+        discount: 0,
+        country: "China"
+    },
+    {
+        image: BranddesignTop.src,
+        title: "Brand Design Top",
+        tag: "Bags and Hand Bags",
+        fit: "One size",
+        price: "$24.99",
+        link: "/products/brand-design-top",
+        description: "A stylish brand design top for men.",
+        material: "Cotton",
+        colors: ["Black"],
+        sizes: ["One size"],
+        isNew: false,
+        discount: 0,
+        country: "China"
+    },
+    {
+        image: Bestmenscross.src,
+        title: "Best Mens Cross",
+        tag: "Bags and Hand Bags",
+        fit: "One size",
+        price: "$24.99",
+        link: "/products/best-mens-cross",
+        description: "A stylish best mens cross for men.",
+        material: "Cotton",
+        colors: ["Black"],
+        sizes: ["One size"],
+        isNew: false,
+        discount: 0,
+        country: "China"
+    },
+    {
+        image: Briefcaseformen.src,
+        title: "Briefcase for Men",
+        tag: "Bags and Hand Bags",
+        fit: "One size",
+        price: "$24.99",
+        link: "/products/briefcase-for-men",
+        description: "A stylish briefcase for men.",
+        material: "Cotton",
+        colors: ["Black"],
+        sizes: ["One size"],
+        isNew: false,
+        discount: 0,
+        country: "China"
+    },
+    {
+        image: SCIONE.src,
+        title: "SCIONE",
+        tag: "Bags and Hand Bags",
+        fit: "One size",
+        price: "$24.99",
+        link: "/products/scione",
+        description: "A stylish scione for men.",
+        material: "Cotton",
+        colors: ["Black"],
+        sizes: ["One size"],
+        isNew: false,
+        discount: 0,
+        country: "China"
     }
 ]
 
@@ -292,6 +539,111 @@ export const KidsProducts = [
         sizes: ["98", "104", "110", "116"],
         isNew: true,
         discount: 20,
+        country: "China"
+    },
+    {
+        image: BoysClothingSets.src,
+        title: "Boys Clothing Sets",
+        tag: "Accessories",
+        fit: "One size",
+        price: "$24.99",
+        link: "/products/boys-clothing-sets",
+        description: "A clothing set for boys.",
+        material: "Cotton",
+        colors: ["Blue", "Red"],
+        sizes: ["One size"],
+        isNew: false,
+        discount: 0,
+        country: "China"
+    },
+    {
+        image: Fathersdaycrafts.src,
+        title: "Fathers Day Crafts",
+        tag: "Accessories",
+        fit: "One size",
+        price: "$24.99",
+        link: "/products/fathers-day-crafts",
+        description: "A fathers day crafts for kids.",
+        material: "Cotton",
+        colors: ["Blue", "Red"],
+        sizes: ["One size"],
+        isNew: false,
+        discount: 0,
+        country: "China"
+    },
+    {
+        image: Losniñosquierenparar.src,
+        title: "Los niños quieren parar",
+        tag: "Accessories",
+        fit: "One size",
+        price: "$24.99",
+        link: "/products/los-niños-quieren-parar",
+        description: "A fathers day crafts for kids.",
+        material: "Cotton",
+        colors: ["Blue", "Red"],
+        sizes: ["One size"],
+        isNew: false,
+        discount: 0,
+        country: "China"
+    },
+    {
+        image: Onlythingstokeep.src,
+        title: "Only Things to Keep",
+        tag: "Bags and Hand Bags",
+        fit: "One size",
+        price: "$24.99",
+        link: "/products/only-things-to-keep",
+        description: "A stylish only things to keep for kids.",
+        material: "Cotton",
+        colors: ["Blue", "Red"],
+        sizes: ["One size"],
+        isNew: false,
+        discount: 0,
+        country: "China"
+    },
+    {
+        image: HandbagBigChain.src,
+        title: "Handbag Big Chain",
+        tag: "Bags and Hand Bags",
+        fit: "One size",
+        price: "$24.99",
+        link: "/products/handbag-big-chain",
+        description: "A stylish handbag big chain for kids.",
+        material: "Cotton",
+        colors: ["Blue", "Red"],
+        sizes: ["One size"],
+        isNew: false,
+        discount: 0,
+        country: "China"
+    },
+    {
+        image: koreanbagkids.src,
+        title: "Korean Bag Kids",
+        tag: "Bags and Hand Bags",
+        fit: "One size",
+        price: "$24.99",
+        link: "/products/korean-bag-kids",
+        description: "A stylish korean bag kids.",
+        material: "Cotton",
+        colors: ["Blue", "Red"],
+        sizes: ["One size"],
+        isNew: false,
+        discount: 0,
+        country: "China"
+    },
+    {
+        image: BagsGirl.src,
+        title: "Bags Girl",
+        tag: "Bags and Hand Bags",
+        fit: "One size",
+        price: "$24.99",
+        link: "/products/bags-girl",
+        description: "A stylish bags girl.",
+        material: "Cotton",
+        colors: ["Blue", "Red"],
+        sizes: ["One size"],
+        isNew: false,
+        discount: 0,
         country: "China"
     }
 ]

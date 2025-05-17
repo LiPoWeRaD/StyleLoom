@@ -45,7 +45,7 @@ const Footer = () => {
                     <FooterNavigation 
                         className="col-span-1" 
                         title="Products" 
-                        links={[{label: "Menswear", href: "/products/menswear"}, {label: "Womenswear", href: "/products/womenswear"}, {label: "Kidswear", href: "/products/kidswear"}]} 
+                        links={[{label: "Menswear", href: "/products/all/mens"}, {label: "Womenswear", href: "/products/all/womens"}, {label: "Kidswear", href: "/products/all/kids"}]} 
                     />
                     <div className="col-span-1 flex flex-col gap-6">
                         <h3 className="text-white text-lg font-medium">Subscribe to Newsletter</h3>
@@ -66,10 +66,10 @@ const Footer = () => {
                     <div className="col-span-12 md:col-span-6">
                         <ul className="flex items-center md:justify-end">
                             <li className="text-grey40 text-lg font-medium border-r-2 border-dark15 pr-2.5">
-                                <Link href="/">Terms of Service</Link>
+                                <Link href="/terms">Terms of Service</Link>
                             </li>
                             <li className="text-grey40 text-lg font-medium pl-2.5">
-                                <Link href="/">Privacy Policy</Link>
+                                <Link href="/privacy">Privacy Policy</Link>
                             </li>
                         </ul>
                     </div>
