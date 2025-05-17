@@ -1,0 +1,11 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/favicon.ico/route": "/favicon.ico",
+  "/products/page": "/products",
+  "/contact/page": "/contact",
+  "/page": "/",
+  "/terms/page": "/terms",
+  "/privacy/page": "/privacy",
+  "/products/[slug]/page": "/products/[slug]",
+  "/products/all/[slug]/page": "/products/all/[slug]"
+}
